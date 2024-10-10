@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: #9ca067;
+    colour: #d80000;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+.left,.right{
+    flex-basis: 50%;
+    padding: 10px;
+
+}
+textarea{
+    width: 100%;
+    height: 28%;
+    background: #1f1f1f;
+    color: #d3cce2;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+iframe{
+    width: 100%;
+    height: 95%;
+    background: #d3cfcf;
+    border: 3;
+    outline: 2;
+}
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+label{
+    display: flex;
+    align-items: center;
+    background-color: #03767e;
+    height: 30px;
+}
